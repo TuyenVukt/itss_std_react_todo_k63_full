@@ -1,18 +1,16 @@
-import { initializeApp } from "firebase/app";
 import firebase from 'firebase';
 
-
 const firebaseConfig = {
-  apiKey: "AIzaSyA1uhDs8M8_FenAAJ1xDZPwXBn1NMZzzrM",
-  authDomain: "todo-apps3.firebaseapp.com",
-  projectId: "todo-apps3",
-  storageBucket: "todo-apps3.appspot.com",
-  messagingSenderId: "164759772211",
-  appId: "1:164759772211:web:e4930ad814002957f31746"
+  apiKey: "AIzaSyClevtwXrzXkC3rIt83Y26SlwH0OmvW8-k",
+  authDomain: "todo-apps4.firebaseapp.com",
+  projectId: "todo-apps4",
+  storageBucket: "todo-apps4.appspot.com",
+  messagingSenderId: "861627818973",
+  appId: "1:861627818973:web:1f844f10cb4f92c2ff4c34"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
+
 const db = firebase.firestore();
 export const auth = firebase.auth();
 export default firebase;

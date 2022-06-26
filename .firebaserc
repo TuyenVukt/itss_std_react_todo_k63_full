@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "fir-pr-e05d5"
-  }
+    "default": "todo-apps3",
+    "staging": "todo-apps4"
+  },
+  "targets": {}
 }
